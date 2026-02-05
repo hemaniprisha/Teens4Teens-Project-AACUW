@@ -1,0 +1,244 @@
+event_id,chapter_name,event_date,state,city,products_distributed,carrying_capacity,volunteers_present,estimated_beneficiaries,product_type,event_duration_hours,notes
+E0077,Denver Metro,2023-01-01,CO,Arvada,316,350,9,125,pads_only,3.5,Holiday giving surge
+E0136,Miami South,2023-01-03,FL,Boca Raton,448,450,14,163,mixed,3.5,Holiday giving surge
+E0221,New York Metro,2023-01-07,NY,Manhattan,550,550,11,253,tampons_cups,4.5,Expanded coverage area
+E0119,Portland West,2023-01-18,OR,Hillsboro,378,400,13,166,mixed,4.5,Focus on reusable products
+E0001,Bay Area Chapter,2023-01-26,CA,Palo Alto,487,500,15,208,tampons_cups,4.5,Focus on reusable products
+E0222,New York Metro,2023-01-27,NY,Staten Island,465,550,12,206,pads_only,4.0,Summer program
+E0095,Chicago South,2023-01-28,IL,Oak Park,445,500,14,215,tampons_cups,3.0,Repeat location
+E0002,Bay Area Chapter,2023-01-28,CA,San Jose,471,500,16,180,pads_tampons,3.0,Expanded coverage area
+E0223,New York Metro,2023-01-30,NY,Brooklyn,535,550,11,251,mixed,3.0,Holiday giving surge
+E0096,Chicago South,2023-01-30,IL,Evanston,418,500,13,204,tampons_cups,3.5,New volunteers joined
+E0151,Atlanta Metro,2023-01-30,GA,Alpharetta,387,425,12,150,pads_only,3.5,High turnout despite weather
+E0003,Bay Area Chapter,2023-01-31,CA,San Francisco,491,500,12,226,pads_only,3.5,Partnership with local school
+E0224,New York Metro,2023-02-01,NY,Manhattan,473,551,11,200,tampons_cups,4.0,Summer program
+E0004,Bay Area Chapter,2023-02-02,CA,Palo Alto,500,500,13,218,pads_only,3.0,Focus on reusable products
+E0137,Miami South,2023-02-03,FL,Fort Lauderdale,397,451,15,169,mixed,3.5,Peak performance
+E0167,Philadelphia East,2023-02-06,PA,Philadelphia,350,380,9,134,tampons_cups,3.5,Collaborative event with another org
+E0066,Phoenix Valley,2023-02-09,AZ,Scottsdale,284,300,6,112,tampons_cups,3.0,Focus on reusable products
+E0152,Atlanta Metro,2023-02-22,GA,Sandy Springs,389,425,12,187,mixed,4.0,Record attendance
+E0207,Dallas Fort Worth,2023-03-04,TX,Arlington,506,530,11,227,mixed,3.5,Earth Day event
+E0168,Philadelphia East,2023-03-12,PA,Allentown,408,419,13,173,mixed,3.0,Wealthy area outreach
+E0052,Seattle North,2023-03-12,WA,Redmond,446,496,12,160,mixed,4.5,High turnout despite weather
+E0225,New York Metro,2023-03-13,NY,Brooklyn,556,607,16,250,mixed,4.0,Suburban outreach
+E0138,Miami South,2023-03-14,FL,Miami,449,497,11,168,mixed,4.0,Exceeded capacity
+E0208,Dallas Fort Worth,2023-03-17,TX,Arlington,506,530,16,219,mixed,4.0,Spring drive success
+E0038,Boston Metro,2023-03-19,MA,Boston,320,385,7,126,mixed,3.0,Partnership with local school
+E0209,Dallas Fort Worth,2023-03-24,TX,Dallas,506,530,14,203,mixed,4.5,Repeat location
+E0005,Bay Area Chapter,2023-03-31,CA,San Francisco,516,551,17,199,mixed,3.0,Underserved community focus
+E0120,Portland West,2023-04-06,OR,Beaverton,409,441,11,187,mixed,4.0,Expanded coverage area
+E0006,Bay Area Chapter,2023-04-06,CA,Palo Alto,517,552,14,211,mixed,3.0,Wealthy area outreach
+E0181,Minneapolis North,2023-04-10,MN,Minneapolis,357,397,12,158,tampons_cups,3.0,Back to school prep
+E0007,Bay Area Chapter,2023-04-15,CA,San Francisco,552,552,17,224,mixed,4.0,First event of semester
+E0024,Austin Central,2023-04-19,TX,Cedar Park,383,442,13,140,mixed,4.5,Nearly at capacity
+E0067,Phoenix Valley,2023-04-21,AZ,Scottsdale,290,332,12,104,pads_only,3.0,Peak performance
+E0210,Dallas Fort Worth,2023-04-21,TX,Irving,531,531,16,206,pads_tampons,4.5,Consistent demand
+E0008,Bay Area Chapter,2023-04-25,CA,Oakland,545,552,16,208,mixed,3.5,Repeat location
+E0153,Atlanta Metro,2023-05-05,GA,Marietta,407,470,14,169,mixed,3.5,University partnership
+E0097,Chicago South,2023-05-11,IL,Evanston,512,554,14,225,tampons_cups,4.0,Collaborative event with another org
+E0154,Atlanta Metro,2023-05-15,GA,Sandy Springs,428,470,14,183,tampons_cups,4.0,College campus event
+E0053,Seattle North,2023-05-16,WA,Seattle,441,498,15,196,mixed,4.5,Wealthy area outreach
+E0193,San Diego South,2023-05-19,CA,San Diego,427,464,9,171,pads_only,4.0,Winter weather challenges
+E0182,Minneapolis North,2023-05-21,MN,Bloomington,328,397,9,158,pads_only,3.5,New location tested
+E0009,Bay Area Chapter,2023-05-23,CA,Berkeley,512,553,11,230,mixed,4.0,Exceeded capacity
+E0039,Boston Metro,2023-05-24,MA,Brookline,333,386,13,156,tampons_cups,3.5,New volunteers joined
+E0226,New York Metro,2023-05-26,NY,Staten Island,605,609,16,271,mixed,3.0,Nearly at capacity
+E0227,New York Metro,2023-05-27,NY,Staten Island,574,609,17,281,tampons_cups,4.0,First event of semester
+E0211,Dallas Fort Worth,2023-06-01,TX,Irving,417,436,9,183,tampons_cups,4.0,Strong volunteer turnout
+E0025,Austin Central,2023-06-06,TX,Round Rock,331,363,7,120,pads_only,3.0,First event of semester
+E0194,San Diego South,2023-06-08,CA,Chula Vista,322,380,9,136,pads_tampons,3.5,Record attendance
+E0054,Seattle North,2023-06-11,WA,Redmond,387,408,9,184,mixed,4.0,Community center venue
+E0026,Austin Central,2023-06-15,TX,Georgetown,343,363,8,124,mixed,4.5,First-time beneficiaries
+E0098,Chicago South,2023-06-19,IL,Naperville,419,455,15,190,mixed,4.0,High turnout despite weather
+E0027,Austin Central,2023-07-02,TX,Georgetown,321,364,7,122,pads_tampons,4.5,Earth Day event
+E0228,New York Metro,2023-07-04,NY,Queens,443,500,10,197,pads_tampons,3.5,Collaborative event with another org
+E0229,New York Metro,2023-07-05,NY,Manhattan,452,500,12,199,mixed,4.0,New location tested
+E0040,Boston Metro,2023-07-07,MA,Brookline,296,315,11,108,pads_tampons,4.0,High turnout despite weather
+E0041,Boston Metro,2023-07-14,MA,Somerville,304,315,8,110,tampons_cups,4.0,Strong volunteer turnout
+E0183,Minneapolis North,2023-07-14,MN,Bloomington,265,325,9,122,mixed,3.5,University partnership
+E0042,Boston Metro,2023-07-16,MA,Cambridge,295,315,10,116,tampons_cups,4.5,New volunteers joined
+E0010,Bay Area Chapter,2023-07-23,CA,San Francisco,442,453,11,203,pads_only,4.0,Summer program
+E0028,Austin Central,2023-07-23,TX,Georgetown,348,364,8,143,mixed,4.0,New volunteers joined
+E0068,Phoenix Valley,2023-07-24,AZ,Scottsdale,254,274,8,99,mixed,4.0,High turnout despite weather
+E0155,Atlanta Metro,2023-07-28,GA,Alpharetta,353,387,10,166,pads_tampons,4.5,University partnership
+E0078,Denver Metro,2023-08-04,CO,Aurora,281,318,10,123,pads_tampons,4.5,College campus event
+E0079,Denver Metro,2023-08-07,CO,Boulder,287,318,11,135,mixed,3.5,Nearly at capacity
+E0055,Seattle North,2023-08-07,WA,Tacoma,398,410,10,160,mixed,4.0,New volunteers joined
+E0011,Bay Area Chapter,2023-08-12,CA,Oakland,420,454,14,173,pads_tampons,3.5,Consistent demand
+E0099,Chicago South,2023-08-13,IL,Oak Park,415,457,14,203,pads_only,4.5,Peak performance
+E0184,Minneapolis North,2023-08-13,MN,Rochester,291,326,10,109,pads_only,4.0,Strong community support
+E0100,Chicago South,2023-08-14,IL,Oak Park,410,457,9,157,pads_tampons,3.0,First-time beneficiaries
+E0121,Portland West,2023-08-15,OR,Beaverton,336,362,7,121,mixed,4.5,New volunteers joined
+E0069,Phoenix Valley,2023-08-16,AZ,Phoenix,246,275,5,114,pads_only,4.0,Record attendance
+E0012,Bay Area Chapter,2023-08-17,CA,Palo Alto,420,454,12,150,mixed,4.0,College campus event
+E0070,Phoenix Valley,2023-08-22,AZ,Mesa,233,275,8,102,pads_only,4.0,Summer program
+E0139,Miami South,2023-08-26,FL,West Palm Beach,396,413,14,159,mixed,4.0,Consistent demand
+E0013,Bay Area Chapter,2023-08-27,CA,Oakland,436,454,14,163,mixed,4.0,First-time beneficiaries
+E0169,Philadelphia East,2023-08-29,PA,Allentown,299,345,6,132,mixed,3.0,Suburban outreach
+E0195,San Diego South,2023-08-29,CA,Chula Vista,350,381,12,143,mixed,4.0,First event of semester
+E0122,Portland West,2023-09-07,OR,Lake Oswego,374,443,10,168,mixed,4.0,Summer program
+E0056,Seattle North,2023-09-08,WA,Seattle,485,502,15,201,pads_only,4.0,Partnership with local school
+E0014,Bay Area Chapter,2023-09-08,CA,Oakland,475,556,11,204,mixed,4.0,Underserved community focus
+E0043,Boston Metro,2023-09-12,MA,Newton,357,387,9,128,mixed,3.5,First event of semester
+E0044,Boston Metro,2023-09-13,MA,Brookline,354,387,12,173,mixed,4.0,University partnership
+E0185,Minneapolis North,2023-09-14,MN,Minneapolis,342,399,9,129,tampons_cups,4.0,Community center venue
+E0029,Austin Central,2023-09-27,TX,Cedar Park,406,447,13,157,tampons_cups,3.5,Consistent demand
+E0057,Seattle North,2023-09-29,WA,Seattle,440,502,15,165,mixed,4.0,Expanded coverage area
+E0230,New York Metro,2023-10-01,NY,Queens,599,616,16,284,mixed,3.5,University partnership
+E0156,Atlanta Metro,2023-10-01,GA,Sandy Springs,410,475,14,152,pads_only,3.5,Expanded coverage area
+E0101,Chicago South,2023-10-07,IL,Naperville,471,562,12,221,pads_tampons,4.5,Holiday giving surge
+E0231,New York Metro,2023-10-07,NY,Brooklyn,556,616,17,270,mixed,4.0,Strong volunteer turnout
+E0015,Bay Area Chapter,2023-10-09,CA,San Jose,481,557,15,221,tampons_cups,4.0,Wealthy area outreach
+E0045,Boston Metro,2023-10-13,MA,Boston,331,387,13,155,mixed,4.5,Repeat location
+E0140,Miami South,2023-10-17,FL,Coral Gables,435,507,10,170,mixed,4.0,Focus on reusable products
+E0058,Seattle North,2023-10-19,WA,Bellevue,454,503,16,180,pads_only,3.5,New location tested
+E0080,Denver Metro,2023-10-21,CO,Arvada,312,390,11,131,mixed,3.0,New volunteers joined
+E0157,Atlanta Metro,2023-10-22,GA,Marietta,471,475,15,212,mixed,4.5,New location tested
+E0141,Miami South,2023-10-23,FL,Boca Raton,472,507,14,197,mixed,4.5,First event of semester
+E0142,Miami South,2023-10-26,FL,Miami,499,507,13,200,mixed,4.0,College campus event
+E0123,Portland West,2023-10-29,OR,Beaverton,426,444,11,159,pads_only,3.0,Suburban outreach
+E0030,Austin Central,2023-11-02,TX,Austin,415,449,13,197,pads_tampons,4.0,Expanded coverage area
+E0081,Denver Metro,2023-11-05,CO,Boulder,346,390,12,144,pads_tampons,4.0,Peak performance
+E0082,Denver Metro,2023-11-08,CO,Lakewood,357,390,12,131,mixed,3.0,College campus event
+E0071,Phoenix Valley,2023-11-09,AZ,Tempe,304,339,10,131,mixed,3.0,Focus on reusable products
+E0124,Portland West,2023-11-10,OR,Beaverton,364,444,10,180,mixed,4.0,Focus on reusable products
+E0232,New York Metro,2023-11-13,NY,Staten Island,586,617,13,214,pads_only,4.0,Strong volunteer turnout
+E0170,Philadelphia East,2023-11-21,PA,Erie,357,424,10,168,mixed,4.0,Back to school prep
+E0212,Dallas Fort Worth,2023-11-26,TX,Plano,532,540,16,236,pads_only,3.0,Suburban outreach
+E0083,Denver Metro,2023-11-26,CO,Boulder,379,390,8,159,mixed,4.5,Underserved community focus
+E0171,Philadelphia East,2023-12-03,PA,Erie,370,443,14,173,mixed,3.5,Summer program
+E0102,Chicago South,2023-12-11,IL,Evanston,523,589,12,189,tampons_cups,4.5,Collaborative event with another org
+E0233,New York Metro,2023-12-14,NY,Bronx,608,646,18,236,tampons_cups,4.0,Record attendance
+E0125,Portland West,2023-12-19,OR,Beaverton,427,465,9,174,mixed,3.0,Peak performance
+E0059,Seattle North,2023-12-24,WA,Seattle,495,529,14,193,mixed,4.5,Record attendance
+E0072,Phoenix Valley,2023-12-25,AZ,Tempe,340,356,6,169,mixed,4.0,Suburban outreach
+E0234,New York Metro,2023-12-26,NY,Staten Island,586,646,17,211,pads_tampons,3.0,Consistent demand
+E0126,Portland West,2024-01-13,OR,Lake Oswego,404,405,14,194,mixed,4.0,Spring drive success
+E0060,Seattle North,2024-01-14,WA,Redmond,446,461,9,183,pads_only,3.5,Earth Day event
+E0196,San Diego South,2024-01-15,CA,Carlsbad,397,428,11,184,mixed,4.0,Partnership with local school
+E0031,Austin Central,2024-01-18,TX,Round Rock,374,412,8,153,mixed,4.5,High turnout despite weather
+E0172,Philadelphia East,2024-01-25,PA,Pittsburgh,324,387,12,135,mixed,3.5,College campus event
+E0073,Phoenix Valley,2024-01-27,AZ,Chandler,274,312,8,99,pads_only,3.0,Expanded coverage area
+E0197,San Diego South,2024-02-02,CA,San Diego,371,429,13,147,mixed,3.5,First event of semester
+E0103,Chicago South,2024-02-03,IL,Chicago,460,516,12,185,mixed,3.5,Collaborative event with another org
+E0104,Chicago South,2024-02-08,IL,Schaumburg,448,516,16,161,mixed,3.5,High turnout despite weather
+E0235,New York Metro,2024-02-15,NY,Queens,564,564,18,272,mixed,4.0,Strong volunteer turnout
+E0213,Dallas Fort Worth,2024-02-16,TX,Dallas,483,495,11,235,mixed,4.0,Strong volunteer turnout
+E0127,Portland West,2024-02-19,OR,Portland,341,406,11,144,pads_tampons,4.0,Focus on reusable products
+E0105,Chicago South,2024-02-19,IL,Naperville,465,516,12,182,tampons_cups,4.5,Winter weather challenges
+E0084,Denver Metro,2024-02-20,CO,Arvada,312,357,12,131,tampons_cups,3.0,Earth Day event
+E0143,Miami South,2024-02-23,FL,West Palm Beach,392,467,14,158,mixed,4.5,Back to school prep
+E0198,San Diego South,2024-02-29,CA,La Jolla,393,429,14,179,pads_tampons,4.0,Partnership with local school
+E0199,San Diego South,2024-03-05,CA,La Jolla,429,471,15,198,pads_tampons,4.5,Expanded coverage area
+E0106,Chicago South,2024-03-05,IL,Oak Park,528,568,13,213,mixed,3.0,Record attendance
+E0016,Bay Area Chapter,2024-03-08,CA,Oakland,518,562,17,244,pads_tampons,4.0,New location tested
+E0046,Boston Metro,2024-03-08,MA,Cambridge,347,389,8,140,mixed,3.0,Growing chapter
+E0128,Portland West,2024-03-11,OR,Hillsboro,385,447,15,184,mixed,4.0,Nearly at capacity
+E0214,Dallas Fort Worth,2024-03-12,TX,Dallas,524,545,11,197,mixed,4.0,Back to school prep
+E0085,Denver Metro,2024-03-16,CO,Arvada,337,393,11,122,tampons_cups,4.0,First-time beneficiaries
+E0107,Chicago South,2024-03-22,IL,Chicago,568,568,17,211,mixed,4.0,Strong community support
+E0158,Atlanta Metro,2024-03-24,GA,Sandy Springs,443,480,12,179,mixed,4.5,Repeat location
+E0061,Seattle North,2024-03-24,WA,Tacoma,456,509,11,216,pads_only,4.0,Wealthy area outreach
+E0159,Atlanta Metro,2024-03-28,GA,Marietta,403,480,11,165,pads_only,4.0,Earth Day event
+E0087,Denver Metro,2024-03-28,CO,Aurora,371,393,8,157,pads_tampons,4.0,Collaborative event with another org
+E0086,Denver Metro,2024-03-28,CO,Lakewood,343,393,12,146,mixed,4.5,Wealthy area outreach
+E0047,Boston Metro,2024-03-29,MA,Boston,352,389,7,160,mixed,4.5,Summer program
+E0215,Dallas Fort Worth,2024-03-30,TX,Irving,498,545,15,219,mixed,4.5,Suburban outreach
+E0129,Portland West,2024-04-03,OR,Beaverton,400,447,9,159,mixed,4.5,Community center venue
+E0048,Boston Metro,2024-04-04,MA,Newton,382,389,7,151,mixed,4.0,Expanded coverage area
+E0144,Miami South,2024-04-06,FL,Coral Gables,478,515,10,201,mixed,3.5,Underserved community focus
+E0145,Miami South,2024-04-09,FL,Coral Gables,480,515,12,171,tampons_cups,3.5,Partnership with local school
+E0200,San Diego South,2024-04-09,CA,San Diego,403,473,15,153,mixed,3.5,Focus on reusable products
+E0074,Phoenix Valley,2024-04-16,AZ,Chandler,331,346,11,128,pads_only,3.0,Spring drive success
+E0049,Boston Metro,2024-04-18,MA,Cambridge,368,389,9,145,pads_only,3.5,Focus on reusable products
+E0088,Denver Metro,2024-04-21,CO,Aurora,360,393,13,150,pads_tampons,4.5,Consistent demand
+E0108,Chicago South,2024-04-23,IL,Evanston,522,569,16,229,tampons_cups,3.0,Partnership with local school
+E0146,Miami South,2024-04-26,FL,Miami,493,515,13,211,pads_only,4.0,Repeat location
+E0075,Phoenix Valley,2024-04-26,AZ,Scottsdale,259,346,11,114,mixed,4.0,Earth Day event
+E0130,Portland West,2024-04-29,OR,Beaverton,386,447,15,139,mixed,4.5,Record attendance
+E0216,Dallas Fort Worth,2024-05-05,TX,Dallas,530,548,17,196,mixed,4.0,Spring drive success
+E0160,Atlanta Metro,2024-05-11,GA,Decatur,449,482,16,195,pads_only,4.5,Winter weather challenges
+E0109,Chicago South,2024-05-12,IL,Naperville,527,572,16,262,tampons_cups,4.0,Record attendance
+E0173,Philadelphia East,2024-05-14,PA,Philadelphia,375,429,11,158,mixed,4.0,Wealthy area outreach
+E0110,Chicago South,2024-05-14,IL,Oak Park,518,572,15,206,tampons_cups,4.0,Strong volunteer turnout
+E0217,Dallas Fort Worth,2024-05-17,TX,Arlington,488,548,15,213,mixed,4.0,New volunteers joined
+E0161,Atlanta Metro,2024-05-25,GA,Atlanta,410,482,11,177,tampons_cups,4.5,Expanded coverage area
+E0032,Austin Central,2024-05-27,TX,Cedar Park,457,457,9,209,mixed,3.0,Partnership with local school
+E0017,Bay Area Chapter,2024-06-01,CA,San Jose,415,462,13,187,mixed,4.5,Wealthy area outreach
+E0062,Seattle North,2024-06-02,WA,Bellevue,381,419,14,140,pads_tampons,3.0,Holiday giving surge
+E0033,Austin Central,2024-06-03,TX,Round Rock,352,375,11,158,tampons_cups,3.5,Earth Day event
+E0034,Austin Central,2024-06-03,TX,Georgetown,332,375,8,134,pads_tampons,4.5,Strong community support
+E0089,Denver Metro,2024-06-07,CO,Aurora,282,323,6,128,pads_only,4.0,Wealthy area outreach
+E0131,Portland West,2024-06-27,OR,Beaverton,298,367,11,119,mixed,4.0,Collaborative event with another org
+E0174,Philadelphia East,2024-06-30,PA,Pittsburgh,314,351,12,115,mixed,4.0,Partnership with local school
+E0111,Chicago South,2024-06-30,IL,Schaumburg,380,468,10,137,pads_only,4.5,Strong community support
+E0050,Boston Metro,2024-07-03,MA,Brookline,268,319,8,105,pads_only,3.5,Expanded coverage area
+E0063,Seattle North,2024-07-04,WA,Redmond,362,419,8,137,tampons_cups,4.0,New location tested
+E0201,San Diego South,2024-07-04,CA,Chula Vista,360,388,13,129,mixed,3.5,Strong community support
+E0112,Chicago South,2024-07-05,IL,Schaumburg,426,469,13,179,mixed,4.0,Focus on reusable products
+E0202,San Diego South,2024-07-07,CA,La Jolla,363,388,8,143,mixed,3.0,High turnout despite weather
+E0175,Philadelphia East,2024-07-08,PA,Erie,313,351,9,112,pads_only,4.0,Winter weather challenges
+E0064,Seattle North,2024-07-10,WA,Kirkland,360,419,9,133,pads_tampons,3.5,High turnout despite weather
+E0018,Bay Area Chapter,2024-07-12,CA,Palo Alto,447,463,13,195,pads_tampons,4.0,Nearly at capacity
+E0113,Chicago South,2024-07-13,IL,Evanston,428,469,11,160,mixed,3.5,Wealthy area outreach
+E0090,Denver Metro,2024-07-15,CO,Lakewood,299,324,10,141,pads_tampons,3.0,Winter weather challenges
+E0162,Atlanta Metro,2024-07-16,GA,Sandy Springs,371,396,12,144,tampons_cups,4.0,Holiday giving surge
+E0051,Boston Metro,2024-07-17,MA,Newton,301,319,11,149,mixed,3.0,Record attendance
+E0132,Portland West,2024-07-20,OR,Gresham,328,368,11,138,tampons_cups,4.0,Repeat location
+E0236,New York Metro,2024-07-24,NY,Bronx,498,513,14,205,tampons_cups,4.0,New location tested
+E0019,Bay Area Chapter,2024-07-28,CA,Oakland,418,463,9,155,pads_tampons,3.0,Strong community support
+E0237,New York Metro,2024-08-02,NY,Brooklyn,430,513,12,189,pads_tampons,3.5,University partnership
+E0091,Denver Metro,2024-08-16,CO,Aurora,293,324,7,142,tampons_cups,3.5,Earth Day event
+E0133,Portland West,2024-08-18,OR,Portland,307,368,11,136,mixed,4.0,Summer program
+E0203,San Diego South,2024-08-24,CA,La Jolla,375,389,9,151,mixed,3.5,Focus on reusable products
+E0020,Bay Area Chapter,2024-08-27,CA,San Jose,407,463,14,164,tampons_cups,4.0,Summer program
+E0114,Chicago South,2024-08-29,IL,Schaumburg,470,470,12,180,mixed,3.5,Holiday giving surge
+E0147,Miami South,2024-08-31,FL,West Palm Beach,366,427,9,157,tampons_cups,4.0,Holiday giving surge
+E0021,Bay Area Chapter,2024-09-08,CA,San Francisco,567,567,15,257,mixed,4.5,Holiday giving surge
+E0115,Chicago South,2024-09-09,IL,Oak Park,519,577,15,256,pads_only,4.0,Nearly at capacity
+E0092,Denver Metro,2024-09-13,CO,Lakewood,376,397,10,183,tampons_cups,4.0,Wealthy area outreach
+E0218,Dallas Fort Worth,2024-09-14,TX,Plano,508,554,12,233,mixed,4.0,Repeat location
+E0238,New York Metro,2024-09-15,NY,Bronx,598,630,18,246,pads_tampons,3.0,Suburban outreach
+E0035,Austin Central,2024-09-15,TX,Georgetown,453,462,12,218,mixed,3.5,Suburban outreach
+E0176,Philadelphia East,2024-09-24,PA,Erie,397,431,10,148,pads_tampons,4.0,Repeat location
+E0186,Minneapolis North,2024-09-27,MN,Rochester,366,405,14,136,mixed,3.5,Repeat location
+E0116,Chicago South,2024-09-29,IL,Evanston,533,577,13,202,pads_only,4.0,Wealthy area outreach
+E0163,Atlanta Metro,2024-09-29,GA,Decatur,465,486,16,194,mixed,3.5,University partnership
+E0036,Austin Central,2024-10-02,TX,Austin,406,463,12,171,mixed,4.0,Holiday giving surge
+E0164,Atlanta Metro,2024-10-02,GA,Atlanta,418,487,14,155,tampons_cups,4.0,University partnership
+E0177,Philadelphia East,2024-10-03,PA,Allentown,380,432,11,173,mixed,3.0,Back to school prep
+E0187,Minneapolis North,2024-10-04,MN,Minneapolis,361,405,14,157,tampons_cups,4.5,Focus on reusable products
+E0188,Minneapolis North,2024-10-05,MN,Bloomington,350,405,12,148,mixed,3.0,Back to school prep
+E0165,Atlanta Metro,2024-10-07,GA,Decatur,461,487,13,178,tampons_cups,3.0,Partnership with local school
+E0178,Philadelphia East,2024-10-08,PA,Erie,411,432,10,203,mixed,4.0,Focus on reusable products
+E0239,New York Metro,2024-10-10,NY,Bronx,572,631,18,261,pads_tampons,3.5,New volunteers joined
+E0189,Minneapolis North,2024-10-13,MN,Rochester,335,405,11,160,pads_tampons,4.0,High turnout despite weather
+E0037,Austin Central,2024-10-16,TX,Cedar Park,440,463,14,214,mixed,3.0,Strong community support
+E0022,Bay Area Chapter,2024-10-27,CA,Berkeley,533,568,17,209,mixed,3.0,Collaborative event with another org
+E0093,Denver Metro,2024-11-01,CO,Arvada,344,398,13,124,mixed,4.5,Growing chapter
+E0204,San Diego South,2024-11-01,CA,San Diego,460,478,9,177,mixed,3.5,New location tested
+E0241,New York Metro,2024-11-04,NY,Staten Island,569,632,19,239,mixed,4.0,Consistent demand
+E0240,New York Metro,2024-11-04,NY,Brooklyn,621,632,14,292,mixed,4.5,Exceeded capacity
+E0190,Minneapolis North,2024-11-06,MN,St. Paul,321,405,12,141,mixed,4.5,Peak performance
+E0134,Portland West,2024-11-10,OR,Beaverton,412,452,14,149,pads_tampons,3.0,Focus on reusable products
+E0117,Chicago South,2024-11-15,IL,Oak Park,525,579,16,214,mixed,4.0,Partnership with local school
+E0205,San Diego South,2024-11-17,CA,San Diego,402,478,9,170,pads_only,4.0,Consistent demand
+E0179,Philadelphia East,2024-11-21,PA,Philadelphia,375,433,8,139,mixed,4.5,Underserved community focus
+E0094,Denver Metro,2024-11-22,CO,Lakewood,351,398,10,127,pads_only,3.0,Repeat location
+E0023,Bay Area Chapter,2024-11-23,CA,Oakland,542,569,17,259,tampons_cups,4.0,Consistent demand
+E0191,Minneapolis North,2024-11-25,MN,Rochester,343,405,8,125,pads_only,4.0,Record attendance
+E0118,Chicago South,2024-11-26,IL,Naperville,493,579,13,206,pads_tampons,4.0,Peak performance
+E0192,Minneapolis North,2024-11-28,MN,Rochester,369,405,9,133,pads_only,3.0,Record attendance
+E0180,Philadelphia East,2024-12-01,PA,Pittsburgh,453,453,13,169,pads_only,4.0,Summer program
+E0219,Dallas Fort Worth,2024-12-03,TX,Arlington,528,583,16,252,pads_only,4.0,College campus event
+E0148,Miami South,2024-12-06,FL,West Palm Beach,471,552,14,232,mixed,4.5,Focus on reusable products
+E0135,Portland West,2024-12-09,OR,Lake Oswego,398,472,14,187,pads_tampons,3.0,Partnership with local school
+E0242,New York Metro,2024-12-11,NY,Bronx,618,662,19,245,mixed,4.5,Repeat location
+E0206,San Diego South,2024-12-14,CA,Chula Vista,432,501,14,156,mixed,3.5,Consistent demand
+E0166,Atlanta Metro,2024-12-16,GA,Sandy Springs,470,511,13,206,mixed,4.0,Peak performance
+E0076,Phoenix Valley,2024-12-19,AZ,Tempe,341,371,8,145,tampons_cups,3.5,Summer program
+E0149,Miami South,2024-12-20,FL,Boca Raton,522,552,13,188,tampons_cups,3.0,First-time beneficiaries
+E0243,New York Metro,2024-12-20,NY,Manhattan,638,662,19,300,mixed,4.0,Consistent demand
+E0065,Seattle North,2024-12-21,WA,Bellevue,519,541,12,197,tampons_cups,4.0,Focus on reusable products
+E0150,Miami South,2024-12-24,FL,Fort Lauderdale,516,552,11,217,mixed,4.5,University partnership
+E0220,Dallas Fort Worth,2024-12-30,TX,Arlington,544,583,18,203,mixed,4.0,Holiday giving surge
