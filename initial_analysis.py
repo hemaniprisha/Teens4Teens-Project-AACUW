@@ -22,9 +22,7 @@ df['products_per_beneficiary'] = df['products_distributed'] / df['estimated_bene
 df['volunteer_efficiency'] = df['products_distributed'] / df['volunteers_present']
 df['capacity_gap'] = df['carrying_capacity'] - df['products_distributed']
 
-print("="*80)
-print("TEENS4TEENS DATA ANALYSIS - COMPREHENSIVE RESOURCE ALLOCATION INSIGHTS")
-print("="*80)
+print("Teens4Teens Data Analysis - Resource Allocation Insights")
 print(f"\nDataset Overview:")
 print(f"Total Events: {len(df)}")
 print(f"Date Range: {df['event_date'].min().strftime('%Y-%m-%d')} to {df['event_date'].max().strftime('%Y-%m-%d')}")
@@ -35,9 +33,7 @@ print(f"Cities: {df['city'].nunique()}")
 print(f"\nChapters: {', '.join(sorted(df['chapter_name'].unique()))}")
 
 # Key Metrics Summary
-print("\n" + "="*80)
-print("KEY PERFORMANCE METRICS")
-print("="*80)
+print("Performance Metrics")
 print(f"\nTotal Products Distributed: {df['products_distributed'].sum():,}")
 print(f"Total Beneficiaries Reached: {df['estimated_beneficiaries'].sum():,}")
 print(f"Total Volunteer Hours: {(df['volunteers_present'] * df['event_duration_hours']).sum():,.0f}")
@@ -50,9 +46,7 @@ print(f"Average Volunteer Efficiency: {df['volunteer_efficiency'].mean():.1f} pr
 print(f"Average Volunteers per Event: {df['volunteers_present'].mean():.1f}")
 
 # Year over Year Growth
-print("\n" + "="*80)
-print("YEAR-OVER-YEAR GROWTH ANALYSIS")
-print("="*80)
+print("Year Over Year Growth Analysis")
 
 yearly_stats = df.groupby('year').agg({
     'products_distributed': 'sum',
@@ -71,9 +65,7 @@ if len(yearly_stats) > 1:
         print(f"  • {metric}: {yoy_growth[metric]:+.1f}%")
 
 # Chapter Performance Analysis
-print("\n" + "="*80)
-print("CHAPTER PERFORMANCE COMPARISON")
-print("="*80)
+print("Chapter Performance Comparison")
 
 chapter_stats = df.groupby('chapter_name').agg({
     'products_distributed': ['sum', 'mean', 'count'],
@@ -91,15 +83,13 @@ chapter_stats.columns = ['Total Products', 'Avg Products/Event', 'Events',
 print("\n", chapter_stats.sort_values('Total Products', ascending=False))
 
 # Identify Resource Allocation Opportunities
-print("\n" + "="*80)
-print("RESOURCE ALLOCATION INSIGHTS")
-print("="*80)
+print("Resource allocation insights")
 
 # High demand chapters (>90% capacity utilization)
 high_demand = df.groupby('chapter_name')['capacity_utilization'].mean()
 high_demand_chapters = high_demand[high_demand > 90].sort_values(ascending=False)
 
-print("\n🔴 HIGH DEMAND CHAPTERS (>90% capacity) - NEED MORE RESOURCES:")
+print("\n High demand chapters (>90% capacity) - may need more resources:")
 for chapter, util in high_demand_chapters.items():
     events = len(df[df['chapter_name'] == chapter])
     avg_gap = df[df['chapter_name'] == chapter]['capacity_gap'].mean()
@@ -109,7 +99,7 @@ for chapter, util in high_demand_chapters.items():
 low_demand_chapters = high_demand[high_demand < 80].sort_values(ascending=False)
 
 if len(low_demand_chapters) > 0:
-    print("\n🟢 UNDERUTILIZED CHAPTERS (<80% capacity) - POTENTIAL FOR REALLOCATION:")
+    print("\n Underutilized Chapters (<80% capacity) - Potential for reallocation:")
     for chapter, util in low_demand_chapters.items():
         events = len(df[df['chapter_name'] == chapter])
         avg_products = df[df['chapter_name'] == chapter]['products_distributed'].mean()
@@ -119,15 +109,13 @@ if len(low_demand_chapters) > 0:
 moderate_chapters = high_demand[(high_demand >= 80) & (high_demand <= 90)].sort_values(ascending=False)
 
 if len(moderate_chapters) > 0:
-    print("\n🟡 WELL-BALANCED CHAPTERS (80-90% capacity):")
+    print("\n Balanced chapters (80-90% capacity):")
     for chapter, util in moderate_chapters.items():
         events = len(df[df['chapter_name'] == chapter])
         print(f"  • {chapter}: {util:.1f}% avg utilization ({events} events)")
 
 # Volunteer efficiency analysis
-print("\n" + "="*80)
-print("VOLUNTEER ALLOCATION ANALYSIS")
-print("="*80)
+print("Volunteer Allocation Analysis")
 
 vol_efficiency = df.groupby('chapter_name')['volunteer_efficiency'].mean().sort_values(ascending=False)
 print("\nVolunteer Efficiency by Chapter (products distributed per volunteer):")
@@ -138,9 +126,7 @@ for i, (chapter, eff) in enumerate(vol_efficiency.items(), 1):
     print(f"  {i:2d}. {chapter}: {eff:.1f} products/volunteer (avg {avg_vols:.1f} volunteers, {total_hours:.0f} total hours)")
 
 # Time-based trends
-print("\n" + "="*80)
-print("TEMPORAL TRENDS")
-print("="*80)
+print("Temporal Trends")
 
 quarterly_trends = df.groupby('quarter').agg({
     'products_distributed': 'sum',
@@ -168,13 +154,11 @@ seasonal = df.groupby('season').agg({
     'event_id': 'count'
 }).round(1)
 
-print("\n📊 Seasonal Patterns:")
+print("\n Seasonal Patterns:")
 print(seasonal)
 
 # Geographic analysis
-print("\n" + "="*80)
 print("GEOGRAPHIC DISTRIBUTION")
-print("="*80)
 
 state_stats = df.groupby('state').agg({
     'products_distributed': 'sum',
@@ -187,9 +171,7 @@ state_stats.columns = ['Total Products', 'Total Beneficiaries', 'Events', 'Chapt
 print("\n", state_stats.sort_values('Total Products', ascending=False))
 
 # Product type analysis
-print("\n" + "="*80)
-print("PRODUCT TYPE DISTRIBUTION")
-print("="*80)
+print("Product Type Distribution")
 
 product_stats = df.groupby('product_type').agg({
     'event_id': 'count',
@@ -201,9 +183,7 @@ product_stats['% of Events'] = (product_stats['Events'] / len(df) * 100).round(1
 print("\n", product_stats.sort_values('Total Products', ascending=False))
 
 # Capacity gap analysis
-print("\n" + "="*80)
-print("CAPACITY GAP ANALYSIS")
-print("="*80)
+print("Capacity Gap Analysis")
 
 print("\nChapters Running Near/Over Capacity (Top 10 by utilization):")
 capacity_issues = df.groupby('chapter_name').agg({
@@ -216,9 +196,7 @@ capacity_issues = capacity_issues.sort_values('Avg Util %', ascending=False).hea
 print(capacity_issues)
 
 # Statistical Analysis - Correlations
-print("\n" + "="*80)
-print("CORRELATION ANALYSIS")
-print("="*80)
+print("Correlation Analysis")
 
 correlations = df[['products_distributed', 'carrying_capacity', 'volunteers_present', 
                    'estimated_beneficiaries', 'event_duration_hours']].corr()
@@ -229,11 +207,9 @@ print(f"  • Products vs Capacity: {correlations.loc['products_distributed', 'c
 print(f"  • Products vs Beneficiaries: {correlations.loc['products_distributed', 'estimated_beneficiaries']:.3f}")
 
 # Recommendations
-print("\n" + "="*80)
-print("DATA-DRIVEN RECOMMENDATIONS")
-print("="*80)
+print("Data-Driven Recommendations")
 
-print("\n1. INCREASE CAPACITY FOR HIGH-DEMAND CHAPTERS:")
+print("\n1. Increase capacity for high-demand chapters:")
 for chapter in high_demand_chapters.head(5).index:
     current_capacity = df[df['chapter_name'] == chapter]['carrying_capacity'].mean()
     current_util = high_demand_chapters[chapter]
@@ -246,7 +222,7 @@ for chapter in high_demand_chapters.head(5).index:
     suggested_capacity = current_capacity * increase
     print(f"   • {chapter}: Increase from {current_capacity:.0f} to {suggested_capacity:.0f} ({(increase-1)*100:.0f}%)")
 
-print("\n2. OPTIMIZE VOLUNTEER ALLOCATION:")
+print("\n2. Optimize volunteer allocation:")
 low_efficiency = vol_efficiency.tail(3)
 high_efficiency = vol_efficiency.head(3)
 print(f"   • Benchmark efficiency: {vol_efficiency.median():.1f} products/volunteer")
@@ -254,14 +230,14 @@ print(f"   • Top performers ({', '.join(high_efficiency.index[:2])}): {high_ef
 print(f"   • Improvement opportunity ({', '.join(low_efficiency.index[:2])}): {low_efficiency.mean():.1f} avg")
 print(f"   • Potential gain: {((high_efficiency.mean() - low_efficiency.mean()) / low_efficiency.mean() * 100):.0f}% improvement possible")
 
-print("\n3. GEOGRAPHIC EXPANSION OPPORTUNITIES:")
+print("\n3. Geographic expansion opportunitiies:")
 underserved_states = state_stats[state_stats['Events'] <= 15].sort_values('Events')
 if len(underserved_states) > 0:
     print("   • States with limited presence:")
     for state, row in underserved_states.iterrows():
         print(f"     - {state}: {int(row['Events'])} events, {int(row['Chapters'])} chapter(s)")
 
-print("\n4. SEASONAL PLANNING:")
+print("\n4. Seasonal planning:")
 seasonal_sorted = seasonal.sort_values(('products_distributed', 'mean'), ascending=False)
 best_season = seasonal_sorted.index[0]
 worst_season = seasonal_sorted.index[-1]
@@ -271,15 +247,13 @@ print(f"   • Peak season: {best_season} ({best_avg:.0f} avg products/event)")
 print(f"   • Lowest season: {worst_season} ({worst_avg:.0f} avg products/event)")
 print(f"   • Variance: {((best_avg - worst_avg) / worst_avg * 100):.1f}% difference")
 
-print("\n5. PRODUCT TYPE OPTIMIZATION:")
+print("\n5. Product type optimization:")
 print("   • Current mix:")
 for product_type, row in product_stats.iterrows():
     print(f"     - {product_type}: {row['% of Events']:.1f}% of events")
 
 # Predictive estimates
-print("\n" + "="*80)
-print("PREDICTIVE INVENTORY ESTIMATES (Next Quarter)")
-print("="*80)
+print("Predictive inventory insights (Next Quarter)")
 
 print("\nBased on historical trends and growth rates:")
 for chapter in df['chapter_name'].unique():
@@ -298,9 +272,7 @@ for chapter in df['chapter_name'].unique():
           f"({events_per_quarter:.1f} events × {recent_events:.0f} recent avg)")
 
 # Advanced insights - Growth trajectory
-print("\n" + "="*80)
-print("GROWTH TRAJECTORY ANALYSIS")
-print("="*80)
+print("Growth trajectory analysis")
 
 chapter_growth = {}
 for chapter in df['chapter_name'].unique():
@@ -315,12 +287,8 @@ chapter_growth_sorted = dict(sorted(chapter_growth.items(), key=lambda x: x[1], 
 
 print("\nChapter Growth Rates (First half vs Second half of data):")
 for chapter, growth in list(chapter_growth_sorted.items())[:10]:
-    emoji = "📈" if growth > 5 else "📊" if growth > 0 else "📉"
+    emoji = "UP " if growth > 5 else "STABLE " if growth > 0 else "DOWN "
     print(f"  {emoji} {chapter}: {growth:+.1f}%")
-
-print("\n" + "="*80)
-print("GENERATING VISUALIZATIONS...")
-print("="*80)
 
 # Create comprehensive visualizations
 fig = plt.figure(figsize=(24, 16))
@@ -498,7 +466,7 @@ ax16.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('t4t_comprehensive_analysis_large.png', dpi=300, bbox_inches='tight')
-print("\n✅ Saved: t4t_comprehensive_analysis_large.png")
+print("\n Saved: t4t_comprehensive_analysis_large.png")
 
 # Create correlation heatmap
 fig2, ax = plt.subplots(figsize=(12, 10))
@@ -512,7 +480,7 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0,
 ax.set_title('Correlation Matrix: Key Operational Metrics', fontsize=16, fontweight='bold', pad=20)
 plt.tight_layout()
 plt.savefig('t4t_correlation_heatmap_large.png', dpi=300, bbox_inches='tight')
-print("✅ Saved: t4t_correlation_heatmap_large.png")
+print(" Saved: t4t_correlation_heatmap_large.png")
 
 # Create geographic heatmap
 fig3, axes = plt.subplots(2, 2, figsize=(18, 12))
@@ -577,26 +545,23 @@ for idx, chapter in enumerate(chapter_summary.index):
 
 plt.tight_layout()
 plt.savefig('t4t_geographic_analysis_large.png', dpi=300, bbox_inches='tight')
-print("✅ Saved: t4t_geographic_analysis_large.png")
+print("Saved: t4t_geographic_analysis_large.png")
 
-print("\n" + "="*80)
-print("ANALYSIS COMPLETE")
-print("="*80)
-print("\n📊 Generated Files:")
+print("Analysis")
+print("\n Generated Files:")
 print("  • t4t_synthetic_data_large.csv - Synthetic dataset (243 events, 15 chapters, 2 years)")
 print("  • t4t_comprehensive_analysis_large.png - 16-panel comprehensive visualization")
 print("  • t4t_correlation_heatmap_large.png - Correlation matrix of key metrics")
 print("  • t4t_geographic_analysis_large.png - Geographic and performance analysis")
-print("\n💡 Key Findings Summary:")
+print("\n Key Findings Summary:")
 print(f"  • {len(high_demand_chapters)} chapters operating >90% capacity - need resource expansion")
 print(f"  • Top performer: {chapter_totals.idxmax()} with {chapter_totals.max():,.0f} products distributed")
 print(f"  • Volunteer efficiency varies {vol_efficiency.max()/vol_efficiency.min():.1f}x between best and worst")
 print(f"  • Year-over-year growth: {((yearly_stats.loc[2024, 'Total Products'] - yearly_stats.loc[2023, 'Total Products']) / yearly_stats.loc[2023, 'Total Products'] * 100):.1f}%")
 print(f"  • Total impact: {df['estimated_beneficiaries'].sum():,} beneficiaries served")
-print("\n🎯 Implementation Priority:")
+print("\n Implementation Priority:")
 print("  1. Deploy centralized data collection system (Google Forms → Sheets)")
 print("  2. Automate monthly analytics pipeline (Python scripts)")
 print("  3. Create real-time capacity monitoring dashboard")
 print("  4. Implement predictive inventory allocation model")
 print("  5. Establish quarterly review process with chapter leaders")
-print("="*80)
